@@ -1,0 +1,79 @@
+.finalize{
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finalize-preview{
+    width: 60%;
+    box-shadow: 0 0 2px 2px lightgray;
+    height: 70rem;
+}
+.final-template{
+    box-shadow: 0 0 2px 2px lightgray;
+    width: 30%;
+}
+.templatess{
+    border:2px solid black;
+    position: relative;
+    width: 10rem;
+}
+
+.btn{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%);
+    font-size: .5rem;
+    background: none;
+    color: white;
+    background-color: rgb(62, 183, 231);
+    border: none;
+    padding:.15em .5em;
+    border-radius: 2px;
+}
+
+.final-template{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:.25rem;
+}
+
+.templatess{
+    margin:.5rem;
+}
+
+.finalize{
+    position: relative;
+}
+
+.download-option{
+    position: fixed;
+    top:75%;
+    left:62.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download-btn button{
+    font-size: larger;
+    padding:.5rem 1rem;
+    border: 2px solid rgb(230, 8, 8);
+    color: white;
+    background:rgb(230, 8, 8);
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-radius: 800px;
+}
+
+.save-btn button{
+    font-size: larger;
+    padding:.5rem 1rem;
+    border: 2px solid rgb(230, 8, 8);
+    color: white;
+    background:rgb(230, 8, 8);
+    cursor: pointer;
+    border-radius: 800px;
+}
